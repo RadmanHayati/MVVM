@@ -1,2 +1,2 @@
 # MVVM
-|\/| \/ \/ |\/|.doc
+Model–view–viewmodel said hi.
