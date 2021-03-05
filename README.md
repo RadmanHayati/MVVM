@@ -1,2 +1,2 @@
 # MVVM crud
-## said hi...
+## using Room/Coroutines/DataBinding/LiveData/ViewModel
