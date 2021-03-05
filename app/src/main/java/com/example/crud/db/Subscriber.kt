@@ -5,7 +5,7 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 @Entity(tableName = "subscriber_data_table")
-data class subscriber(
+data class Subscriber(
     @PrimaryKey(autoGenerate = true)
     @ColumnInfo(name = "subscriber_id")
     val id:Int,
