@@ -1,2 +1,2 @@
 # MVVM crud
-## using Room/Coroutines/DataBinding/LiveData/ViewModel
+## it uses Room Coroutines DataBinding LiveData ViewModel
