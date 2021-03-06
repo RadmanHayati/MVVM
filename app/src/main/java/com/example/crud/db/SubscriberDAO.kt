@@ -14,13 +14,18 @@ interface SubscriberDAO {
     and suspend fun is a function that can be paused and resume later
  */
     @Insert(onConflict = OnConflictStrategy.IGNORE)
-    suspend fun insertSubscriber(subscriber: Subscriber):Long //can return the id
+    suspend fun insertSubscriber(subscriber: Subscriber): Long //can return the id
+
     @Update
     suspend fun updateSubscriber(subscriber: Subscriber)
+
     @Delete
     suspend fun deleteSubscriber(subscriber: Subscriber)
-    @Query("SELECT * FROM subscriber_data_table")
-    fun getAllSubscribers():LiveData<List<Subscriber>>
-    //we didn't use suspend because LiveData by default works in background thread
 
+    @Query("SELECT * FROM subscriber_data_table")
+    fun getAllSubscribers(): LiveData<List<Subscriber>>
+
+    //we didn't use suspend because LiveData by default works in background thread
+    @Query("DELETE FROM SUBSCRIBER_DATA_TABLE")
+    suspend fun deleteAll()
 }
