@@ -1,10 +1,12 @@
-package com.example.crud.db
+package com.example.crud
 
 import androidx.databinding.Bindable
 import androidx.databinding.Observable
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.example.crud.db.Subscriber
+import com.example.crud.db.SubscriberRepository
 import kotlinx.coroutines.launch
 
 class SubscriberViewModel(private val repository: SubscriberRepository) : ViewModel(),Observable {

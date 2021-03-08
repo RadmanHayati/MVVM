@@ -7,7 +7,7 @@
 
         <variable
             name="myViewModel"
-            type="com.example.crud.db.SubscriberViewModel" />
+            type="com.example.crud.SubscriberViewModel" />
     </data>
 
     <LinearLayout
