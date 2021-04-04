@@ -1,2 +1,3 @@
 # MVVM crud
-## it uses Room Coroutines DataBinding LiveData ViewModel
+## a simple mmvm project which uses
+Room Coroutines DataBinding LiveData ViewModel
