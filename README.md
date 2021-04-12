@@ -1,6 +1,8 @@
 # MVVM crud
 ## A simple **MVVM** project which uses
+
 Room Coroutines DataBinding LiveData ViewModel
+
 Developed by Radman Hayati
 
 MVVM ain't scary...
